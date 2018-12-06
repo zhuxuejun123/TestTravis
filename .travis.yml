@@ -1,0 +1,13 @@
+language: C++
+
+dist: xenial
+
+notifications:
+  email:
+    if: type = push
+    recipient:
+      - zhuxuejun@huawei.com
+    on_success: always
+    on_failure: always
+install:
+    - sudo apt-get install gcc-aarch64-linux-gnu
