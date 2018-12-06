@@ -2,15 +2,9 @@ language: C++
 
 dist: xenial
 
-notifications:
-  email:
-    recipient:
-      - zhuxuejun@huawei.com
-      - 1203163575@qq.com
-    on_success: always
-    on_failure: always
 install:
     - sudo apt-get install gcc-aarch64-linux-gnu
+    
 script:
   - sudo apt-get install python3.5
   
