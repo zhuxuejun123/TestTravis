@@ -4,11 +4,8 @@ dist: xenial
 
 notifications:
   email:
-    if: type = push
     recipient:
       - zhuxuejun@huawei.com
-    if: type = pull_request
-    recipient:
       - 1203163575@qq.com
     on_success: always
     on_failure: always
